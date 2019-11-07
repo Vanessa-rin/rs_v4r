@@ -1,0 +1,7 @@
+annotator:
+  implementation: rs_v4rRecognitionAnnotator
+parameters:
+  test_param: 0.01
+capabilities:
+  inputs: {}
+  outputs: {}
