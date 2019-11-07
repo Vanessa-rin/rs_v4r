@@ -8,6 +8,8 @@ fixedflow:
 - PointCloudClusterExtractor
 - Cluster3DGeometryAnnotator
 - ClusterColorHistogramCalculator
+- v4rRecognitionAnnotator
+
 
 CollectionReader:
   camera_config_files: ['config_hsrb.ini']

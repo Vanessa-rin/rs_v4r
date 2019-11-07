@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(rs_v4r)
-find_package(catkin REQUIRED robosherlock suturo_perception_msgs geometry_msgs)
+find_package(catkin REQUIRED robosherlock suturo_perception_msgs geometry_msgs ppf_recognizer_ros_msgs)
 ################################################################################
 ## Constants for project                                                      ##
 ################################################################################
@@ -28,7 +28,7 @@ catkin_package(
 ## Package dependencies                                                       ##
 ################################################################################
 #Add required catkin packages here
-find_package(catkin REQUIRED robosherlock suturo_perception_msgs geometry_msgs actionlib_msgs image_transport)
+find_package(catkin REQUIRED robosherlock suturo_perception_msgs geometry_msgs actionlib_msgs image_transport ppf_recognizer_ros_msgs)
 #Add required system packages here
 #find_package(xxx)
 ################################################################################
